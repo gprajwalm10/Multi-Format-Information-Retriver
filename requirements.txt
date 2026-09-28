@@ -1,0 +1,16 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain-anthropic
+langgraph
+faiss-cpu
+pypdf
+python-pptx
+youtube-transcript-api
+ddgs
+pandas
+scikit-learn
