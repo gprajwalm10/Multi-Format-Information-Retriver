@@ -107,7 +107,7 @@ This project solves critical information retrieval challenges by:
 ## 🧠 Not Just Standard RAG: This is Corrective RAG (CRAG)
 
 ### How CRAG Beats Standard RAG
-Standard RAG blindly passes top-$k$ retrieved vector matches directly to the LLM. If the vector store returns low-quality or irrelevant chunks, standard RAG forces the LLM to hallucinate or generate inaccurate answers.
+Standard RAG blindly passes retrieved vector matches directly to the LLM. If the vector store returns low-quality or irrelevant chunks, standard RAG forces the LLM to hallucinate or generate inaccurate answers.
 
 **Corrective RAG (CRAG)** fixes this by adding a **Retrieval Evaluator**:
 1. **Evaluates Relevance**: The evaluator scores how well the retrieved document chunks match the user query.
